@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name MX_Alps_Hybrid)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid.pretty)(options "")(descr ""))
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid.pretty/MX_Only.pretty)(options "")(descr ""))
+  (lib (name "4085 USB Connector GCT")(type KiCad)(uri "${KIPRJMOD}/4085 USB Connector GCT")(options "")(descr ""))
 )

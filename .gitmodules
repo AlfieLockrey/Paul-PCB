@@ -7,3 +7,6 @@
 [submodule "Type-C.pretty"]
 	path = Type-C.pretty
 	url = https://github.com/ai03-2725/Type-C.pretty
+[submodule "USB-C-Connectors"]
+	path = USB-C-Connectors
+	url = https://github.com/jenschr/USB-C-Connectors

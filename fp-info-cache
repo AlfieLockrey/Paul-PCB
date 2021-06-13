@@ -1,4 +1,4 @@
-19254124658315093
+19273551854827009
 4085 USB Connector GCT
 GCT_USB4085-GF-A_REVA
 
@@ -82837,6 +82837,90 @@ transformer flyback
 0
 10
 10
+Type-C
+12401598E4#2A
+
+
+0
+28
+28
+Type-C
+HRO-TYPE-C-31-M-12
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-Assembly
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-12-HandSoldering
+
+
+0
+16
+13
+Type-C
+HRO-TYPE-C-31-M-13
+
+
+0
+16
+13
+Type-C
+USB_C_GCT_USB4085
+
+
+0
+20
+17
+Type-C
+Wurth-632723300011
+
+
+0
+32
+27
+Type-C
+Wurth-632723300011-HandSoldering
+
+
+0
+30
+26
+Type-C
+Wurth-632723300011-MaximumExtensionMount
+
+
+0
+32
+27
+USB-C-Power-tester
+TYPE-C-31-M-04
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+25
+USB-C-Power-tester
+TYPE-C-31-M-12
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
+USB-C-Power-tester
+TYPE-C-31-M-17
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+10
+7
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins

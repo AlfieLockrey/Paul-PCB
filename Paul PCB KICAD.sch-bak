@@ -419,17 +419,6 @@ Connection ~ 1850 2200
 Wire Wire Line
 	1850 2200 1900 2200
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX0
-U 1 1 607E1287
-P 6550 2000
-F 0 "MX0" H 6583 2223 60  0000 C CNN
-F 1 "MX-NoLED" H 6583 2149 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap" H 5925 1975 60  0001 C CNN
-F 3 "" H 5925 1975 60  0001 C CNN
-	1    6550 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D0
 U 1 1 607E56B1
 P 6350 2250
@@ -442,17 +431,6 @@ F 3 "~" V 6350 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6500 2150 6350 2150
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX1
-U 1 1 607F33E0
-P 7100 2000
-F 0 "MX1" H 7133 2223 60  0000 C CNN
-F 1 "MX-NoLED" H 7133 2149 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap" H 6475 1975 60  0001 C CNN
-F 3 "" H 6475 1975 60  0001 C CNN
-	1    7100 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small D1
 U 1 1 607F33E6
@@ -658,17 +636,6 @@ F 3 "~" V 6900 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7050 5000 6900 5000
-$Comp
-L MX_Alps_Hybrid:MX-NoLED MX2
-U 1 1 60815E60
-P 8000 2000
-F 0 "MX2" H 8033 2223 60  0000 C CNN
-F 1 "MX-NoLED" H 8033 2149 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap" H 7375 1975 60  0001 C CNN
-F 3 "" H 7375 1975 60  0001 C CNN
-	1    8000 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small D2
 U 1 1 60815E66
@@ -2031,17 +1998,6 @@ $EndComp
 Wire Wire Line
 	15400 2150 15250 2150
 $Comp
-L MX_Alps_Hybrid:MX-NoLED MX114
-U 1 1 608C27ED
-P 15450 2700
-F 0 "MX114" H 15483 2923 60  0000 C CNN
-F 1 "MX-NoLED" H 15483 2849 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-Hotswap" H 14825 2675 60  0001 C CNN
-F 3 "" H 14825 2675 60  0001 C CNN
-	1    15450 2700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D114
 U 1 1 608C27F3
 P 15250 2950
@@ -2517,11 +2473,6 @@ Wire Wire Line
 Wire Wire Line
 	15600 1500 15600 1950
 Connection ~ 15600 1950
-Wire Wire Line
-	15600 1950 15600 2650
-Connection ~ 15600 2650
-Wire Wire Line
-	15600 2650 15600 3350
 Connection ~ 15600 3350
 Wire Wire Line
 	15600 3350 15600 4050
@@ -2703,4 +2654,67 @@ Wire Notes Line
 	15800 1150 5700 1150
 Wire Wire Line
 	4050 5350 4350 5350
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 60815E60
+P 8000 2000
+F 0 "MX2" H 8033 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 8033 2149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 7375 1975 60  0001 C CNN
+F 3 "" H 7375 1975 60  0001 C CNN
+	1    8000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX1
+U 1 1 607F33E0
+P 7100 2000
+F 0 "MX1" H 7133 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 7133 2149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 6475 1975 60  0001 C CNN
+F 3 "" H 6475 1975 60  0001 C CNN
+	1    7100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX0
+U 1 1 607E1287
+P 6550 2000
+F 0 "MX0" H 6583 2223 60  0000 C CNN
+F 1 "MX-NoLED" H 6583 2149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 5925 1975 60  0001 C CNN
+F 3 "" H 5925 1975 60  0001 C CNN
+	1    6550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Rotary_Encoder_Switch RotaryEncoder1
+U 1 1 60CFC5D9
+P 14150 6350
+F 0 "RotaryEncoder1" H 14150 5983 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 14150 6074 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 14000 6510 50  0001 C CNN
+F 3 "~" H 14150 6610 50  0001 C CNN
+	1    14150 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	15600 1950 15600 3350
+Text GLabel 15600 2450 2    50   Input ~ 0
+Rot.Enc.1
+Text GLabel 15400 2850 1    50   Input ~ 0
+Rot.Enc.2
+Text GLabel 13850 6450 0    50   Input ~ 0
+Rot.Enc.1
+Text GLabel 13850 6250 0    50   Input ~ 0
+Rot.Enc.2
+Text GLabel 14450 6250 2    50   Input ~ 0
+Rot.Enc.A
+Text GLabel 14450 6350 2    50   Input ~ 0
+Rot.Enc.C
+Text GLabel 14450 6450 2    50   Input ~ 0
+Rot.Enc.B
+Wire Wire Line
+	4450 5350 4350 5350
+Connection ~ 4350 5350
 $EndSCHEMATC

@@ -2718,7 +2718,13 @@ Wire Wire Line
 	4450 5350 4350 5350
 Connection ~ 4350 5350
 Text Label 3700 3050 0    50   ~ 0
-USB_P
+Data_P
 Text Label 3700 3150 0    50   ~ 0
+Data_N
+Text Label 3800 2050 0    50   ~ 0
+Reset
+Text Label 2950 3050 0    50   ~ 0
+USB_P
+Text Label 3050 3150 0    50   ~ 0
 USB_N
 $EndSCHEMATC

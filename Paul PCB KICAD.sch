@@ -1503,12 +1503,12 @@ $EndComp
 $Comp
 L Device:D_Small D408
 U 1 1 6086EB1E
-P 11600 5150
-F 0 "D408" V 11646 5080 50  0000 R CNN
-F 1 "D_Small" V 11555 5080 50  0000 R CNN
-F 2 "Diode_SMD:D_SOD-123" V 11600 5150 50  0001 C CNN
-F 3 "~" V 11600 5150 50  0001 C CNN
-	1    11600 5150
+P 11600 5100
+F 0 "D408" V 11646 5030 50  0000 R CNN
+F 1 "D_Small" V 11555 5030 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" V 11600 5100 50  0001 C CNN
+F 3 "~" V 11600 5100 50  0001 C CNN
+	1    11600 5100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -2340,7 +2340,7 @@ Wire Wire Line
 	9500 5200 10500 5200
 Connection ~ 10500 5200
 Wire Wire Line
-	10500 5200 12150 5200
+	10500 5200 11600 5200
 Wire Wire Line
 	9850 4800 9850 4050
 Connection ~ 9850 1950
@@ -2391,9 +2391,6 @@ Wire Wire Line
 Connection ~ 11950 3350
 Wire Wire Line
 	11950 3350 11950 4050
-Connection ~ 11950 4050
-Wire Wire Line
-	11950 4050 11950 4800
 Connection ~ 12150 5200
 Connection ~ 12700 5200
 Wire Wire Line
@@ -2727,4 +2724,10 @@ Text Label 2950 3050 0    50   ~ 0
 USB_P
 Text Label 3050 3150 0    50   ~ 0
 USB_N
+Wire Wire Line
+	11950 4050 11950 4800
+Connection ~ 11950 4050
+Connection ~ 11600 5200
+Wire Wire Line
+	11600 5200 12150 5200
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-19273583131418647
+19275220640413704
 4085 USB Connector GCT
 GCT_USB4085-GF-A_REVA
 
@@ -78301,6 +78301,13 @@ Logo WEEE
 0
 0
 0
+TS-1187A-B-A-B
+SW_TS-1187A-B-A-B
+
+
+0
+4
+2
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf

@@ -4,4 +4,5 @@
   (lib (name "4085 USB Connector GCT")(type KiCad)(uri "${KIPRJMOD}/4085 USB Connector GCT")(options "")(descr ""))
   (lib (name USB-C-Power-tester)(type KiCad)(uri ${KIPRJMOD}/USB-C-Connectors/Kicad/Footprints/USB-C-Power-tester.pretty)(options "")(descr ""))
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
+  (lib (name TS-1187A-B-A-B)(type KiCad)(uri ${KIPRJMOD}/TS-1187A-B-A-B)(options "")(descr ""))
 )

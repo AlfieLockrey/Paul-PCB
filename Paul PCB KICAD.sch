@@ -2644,8 +2644,6 @@ $EndComp
 Wire Notes Line
 	5700 1150 5700 5450
 Wire Notes Line
-	5700 5450 15800 5450
-Wire Notes Line
 	15800 5450 15800 1150
 Wire Notes Line
 	15800 1150 5700 1150
@@ -2707,8 +2705,6 @@ Text GLabel 13850 6250 0    50   Input ~ 0
 Rot.Enc.2
 Text GLabel 14450 6250 2    50   Input ~ 0
 Rot.Enc.A
-Text GLabel 14450 6350 2    50   Input ~ 0
-Rot.Enc.C
 Text GLabel 14450 6450 2    50   Input ~ 0
 Rot.Enc.B
 Wire Wire Line
@@ -2730,4 +2726,63 @@ Connection ~ 11950 4050
 Connection ~ 11600 5200
 Wire Wire Line
 	11600 5200 12150 5200
+Text GLabel 5050 4950 2    50   Input ~ 0
+COL0
+Text GLabel 5050 4850 2    50   Input ~ 0
+COL1
+Text GLabel 5050 4750 2    50   Input ~ 0
+COL2
+Text GLabel 5050 4650 2    50   Input ~ 0
+COL3
+Text GLabel 5050 4550 2    50   Input ~ 0
+COL4
+Text GLabel 5050 4450 2    50   Input ~ 0
+COL5
+Text GLabel 5050 2050 2    50   Input ~ 0
+ROW1
+Text GLabel 5050 2150 2    50   Input ~ 0
+ROW0
+Text GLabel 5050 2250 2    50   Input ~ 0
+COL6
+Text GLabel 5050 2350 2    50   Input ~ 0
+COL7
+Text GLabel 5050 3250 2    50   Input ~ 0
+COL8
+Text GLabel 5050 3350 2    50   Input ~ 0
+COL9
+Text GLabel 5050 3450 2    50   Input ~ 0
+COL10
+Text GLabel 5050 3550 2    50   Input ~ 0
+COL11
+Text GLabel 5050 3750 2    50   Input ~ 0
+ROW2
+Text GLabel 5050 3950 2    50   Input ~ 0
+COL12
+Text GLabel 5050 2750 2    50   Input ~ 0
+COL13
+Text GLabel 5050 2450 2    50   Input ~ 0
+COL14
+Text GLabel 5050 2550 2    50   Input ~ 0
+ROW3
+Wire Notes Line
+	5700 5450 15800 5450
+Text GLabel 5050 2650 2    50   Input ~ 0
+ROW4
+Text GLabel 5050 3650 2    50   Input ~ 0
+Rot.Enc.A
+Text GLabel 5050 3850 2    50   Input ~ 0
+Rot.Enc.B
+$Comp
+L power:GND #PWR?
+U 1 1 612905BE
+P 15050 6350
+F 0 "#PWR?" H 15050 6100 50  0001 C CNN
+F 1 "GND" H 15055 6177 50  0000 C CNN
+F 2 "" H 15050 6350 50  0001 C CNN
+F 3 "" H 15050 6350 50  0001 C CNN
+	1    15050 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14450 6350 15050 6350
 $EndSCHEMATC

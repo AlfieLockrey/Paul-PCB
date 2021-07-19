@@ -4,13 +4,17 @@
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [AlfieLockrey](https://github.com/yourusername)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [Alfie_Lockrey](https://github.com/AlfieLockrey)
+* Hardware Supported: PaulPCB V1.0 *The PCBs, controllers supported*
+* Hardware Availability: Message me on Discord @ Alfie#6783
 
 Make example for this keyboard (after setting up your build environment):
 
     make PaulPCBV1:default
+
+Make the default layout of this keyboard after dropping the PaulPCBV1 folder into your QMK keyboards folder
+    
+    qmk compile -kb PaulPCBV1 -km default
 
 Flashing example for this keyboard:
 
